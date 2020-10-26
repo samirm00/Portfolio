@@ -39,4 +39,3 @@ if (window.location.href.indexOf('http') !== -1) {
     document.body.insertBefore(validateContainer, document.body.firstChild);
   }
 }
-
