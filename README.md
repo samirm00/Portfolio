@@ -2,7 +2,7 @@
 
 This project is building a personal portfolio. 
 
-This project ueful for any juonir web devolper who wants to build his portfolio 
+This project uesful for any juonir web devolper who wants to build his portfolio 
 
 
 ### Technology used : 
@@ -27,7 +27,7 @@ This project ueful for any juonir web devolper who wants to build his portfolio
 
 ### Screenshot 
 ---
-![Portfolio](/images/Screenshot.png)
+![Portfolio](https://github.com/samirm00/Portfolio/blob/master/images/Screenshot.PNG)
 
 
 ---
