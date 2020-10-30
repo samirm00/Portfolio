@@ -26,7 +26,7 @@ what project he builds and what technology he knows and how to contact the perso
 
 ## 0.Setup
 
-As user , I will see a repo with  readme file
+#### As user , I will see a repo with  readme file
 
 * Fork the template `Agile/html-CSS starter` 
 * Turn on GitHub pages
@@ -34,13 +34,13 @@ As user , I will see a repo with  readme file
 * Write the project planning
 * Create an issue per step 
 ---
-As a user I will see the html , css and js file with the project planning 
-As a vistor , I will see the hope page of the portfolio 
+#### As a user I will see the html , css and js file with the project planning 
+#### As a vistor , I will see the hope page of the portfolio 
 ### 1-Index
 
 
-- This user story is developed on branch `1-index`.
-- This branch is merged to `master` branch after completion.
+#### This user story is developed on branch `1-index`.
+#### This branch is merged to `master` branch after completion.
 
 *  Create a branch `1-index`
 *  Add code to `index.html `
@@ -60,8 +60,8 @@ As a vistor , I will see the hope page of the portfolio
 ### 2-style
 
 
-- This user story is developed on branch `2-style`.
-- This branch is merged to `master` branch after completion.
+#### This user story is developed on branch `2-style`.
+#### This branch is merged to `master` branch after completion.
 
 *  Create a branch `2-style`
 *  Add code to `style.css `
@@ -87,8 +87,8 @@ As a vistor , I will see the hope page of the portfolio
 ### 3-main
 
 
-- This user story is developed on branch `3-main`.
-- This branch is merged to `master` branch after completion.
+ #### This user story is developed on branch `3-main`.
+ #### This branch is merged to `master` branch after completion.
 
 *  Create a branch `3-main`
 *  Add code to `main.js `
@@ -97,4 +97,10 @@ As a vistor , I will see the hope page of the portfolio
 *   Push it to GitHub
 *  Checkout master and then merge `3-main`
   
+
+### 4-Final touches
+
+- Fix the errors 
+- Make sure, everything is working properly 
+
 ---
