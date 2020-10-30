@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Samir| web Developer</title>
+    <title> Samir| Web Developer & Data Analyst</title>
 
     <!--  META TAGS AND LINKS -->
     <meta charset="utf-8" />
-    <script src="https://kit.fontawesome.com/554577be99.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" type="image" href="images/logo-small.png" />
+    <script src="https://kit.fontawesome.com/554577be99.js" crossorigin="anonymous"></script>
 
  <!-- Leave this here!  It renders the review buttons  -->
  <script src="./evaluation/init.js"></script>
@@ -21,8 +21,8 @@
       <nav>
         <div class="nav-brand">
           <a href="index.html">
-            <img src="/images/logo-big.png" alt="Samir's logo" />
-          </a>
+            <img src="./images/logo-big.png" alt="logo">
+          </a>                            
         </div>
         <div class="burger-menu-icon">
           <div class="line1"></div>
@@ -37,7 +37,7 @@
                 alt="Samir"
                 class="profile-pic nav-link"
               />
-              <span class="caption nav-link">Samir Mohammad</span>
+              <span class="caption nav-link">Samir M.</span>
             </a>
           </li>
           <li class="nav-item">
@@ -270,41 +270,6 @@
       </div>
     </footer>
   </main>
-  <script>
-     // Function expression to select elements `
-
- const selectElement = (s) => document.querySelector(s);
- const navLinks = document.querySelectorAll(".nav-link");
- 
- selectElement(".burger-menu-icon").addEventListener("click", () => {
- selectElement(".nav-list").classList.toggle("active");
- selectElement(".burger-menu-icon").classList.toggle("toggle")
- 
- navLinks.forEach((link, index) => {
-     if (link.style.animation){
-         link.style.animation = ""
-     }else{
-         link.style.animation = `navLinkAnimate 0.5s ease forwards ${ index/7 + 0.5}s`
-         console.log(index/7 + 0.5)
-     }
- })
- });
- 
- navLinks.forEach(link => {
- link.addEventListener("click", () => {
-     selectElement(".nav-list").classList.toggle("active");
-     selectElement(".burger-menu-icon").classList.toggle("toggle");
- 
-     navLinks.forEach((link, index) => {
-         if (link.style.animation){
-             link.style.animation = ""
-         }else{
-             link.style.animation = `navLinkAnimate 0.5s ease forwards ${ index/7 + 0.5}s`
-             console.log(index/7 + 0.5)
-         }
-     })
- })
- });
-  </script>
+<script src="./main.js"></script>
 </body>
 </html>

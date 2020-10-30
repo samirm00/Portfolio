@@ -5,9 +5,7 @@
 
 /* Global styles */
 
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -19,7 +17,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: #e7e7e7;
-  background: rgb(52, 53, 53);
+  background-color: rgb(79, 81, 83);
 }
 
 a {
@@ -36,7 +34,7 @@ ul {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 img {
@@ -97,12 +95,12 @@ nav {
 
 .burger-menu-icon {
   cursor: pointer;
-  z-index: 999;
+  z-index: 1000;
   position: fixed;
-  right: 0;
-  top: 0;
-  background: rgba(182, 173, 173, 0.5);
-  padding: 1.2rem;
+  right: 0px;
+  top: 5rem;
+  background: rgba(7, 7, 7, 0.5);
+  padding: 10px;
 }
 
 .profile-pic {
@@ -115,12 +113,14 @@ nav {
 
 .caption {
   display: block;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .nav-list {
   width: 24rem;
   height: 100vh;
-  background-color: #222222;
+  background-color: #121311;
   position: fixed;
   top: 0;
   right: -26rem;
